@@ -1,6 +1,6 @@
 {
     "name": "slim/slim-skeleton",
-    "description": "A Slim Framework skeleton application for rapid development",
+    "description": "Make random PHP service in slim",
     "keywords": [
         "microframework",
         "rest",
@@ -11,23 +11,21 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Josh Lockhart",
-            "email": "info@joshlockhart.com",
-            "homepage": "http://www.joshlockhart.com/"
-        },
-        {
-            "name": "Pierre Berube",
-            "email": "pierre@lgse.com",
-            "homepage": "http://www.lgse.com/"
+            "name": "Borys Lebeda",
+            "email": "borys.lebeda@gmail.com",
+            "homepage": "https://www.linkedin.com/in/borys"
         }
     ],
     "require": {
         "php": "^7.4 || ^8.0",
         "ext-json": "*",
+        "doctrine/orm": "^2.4",
         "monolog/monolog": "^2.9",
         "php-di/php-di": "^6.4",
         "slim/psr7": "^1.6",
-        "slim/slim": "^4.11"
+        "slim/slim": "^4.11",
+        "twig/intl-extra": "^3.5",
+        "twig/twig": "^3.5"
     },
     "require-dev": {
         "jangregor/phpstan-prophecy": "^1.0.0",
