@@ -25,7 +25,7 @@
         "slim/psr7": "^1.6",
         "slim/slim": "^4.11",
         "slim/twig-view": "^3.3",
-        "twig/intl-extra": "^3.5",
+        "twig/intl-extra": "^3.6",
         "twig/twig": "^3.5"
     },
     "require-dev": {
