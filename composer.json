@@ -19,7 +19,7 @@
     "require": {
         "php": "^7.4 || ^8.0",
         "ext-json": "*",
-        "doctrine/orm": "^2.4",
+        "doctrine/orm": "^2.15",
         "monolog/monolog": "^2.9",
         "php-di/php-di": "^6.4",
         "slim/psr7": "^1.6",
